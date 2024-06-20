@@ -127,7 +127,7 @@ footer .logo > span {
     justify-content: center;
 }
 
-.image{
+.image, .profile-item {
     background-color: var(--brand-color)
 }
 
