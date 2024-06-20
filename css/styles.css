@@ -33,16 +33,15 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, a {
+h1, h2, h3, a, .menu {
     color: var(--navy-blue);
 }
 
-a:hover, .logo:hover {
+a:hover, .menu:hover {
     color: var(--ocean);
 }
 
 .logo {
-    color: var(--navy-blue);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
