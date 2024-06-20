@@ -63,9 +63,6 @@ header > nav {
     font-weight: 500;
     color: var(--navy-blue);
 }
-header > nav:focus{
-    color: var(--ocean);
-}
 
 .address {
     color: var(--slate);
@@ -75,7 +72,7 @@ header > nav:focus{
     text-decoration: underline;
 }
 
-.menu:focus .menu:hover, .menu:active, .address:focus, .address:hover, .address:active {
+.menu:focus, .menu:hover, .menu:active, .address:focus, .address:hover, .address:active {
     color: var(--ocean);
 }
 
