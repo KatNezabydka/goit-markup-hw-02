@@ -1,6 +1,6 @@
 :root {
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
+    --font-family: "Roboto";
+    --second-family: "Raleway";
     --brand-color: #ffffff;
     --iris: #4d5ae5;
     --ocean: #404bbf;
@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: var(--font-family);
+    font-family: var(--font-family), sans-serif;
     color: var(--slate);
     background-color: var(--brand-color);
     font-size: 16px;
@@ -50,21 +50,17 @@ nav, a:hover {
 }
 
 .logo {
-}
-
-.logo {
-    font-family: var(--second-family);
-}
-
-.logo > span {
+    font-family: var(--second-family), sans-serif;
+    line-height: 1.17;
+    text-transform: uppercase;
     color: var(--iris);
 }
 
-header > nav > .logo {
+header .logo > span {
     color: var(--navy-blue);
 }
 
-footer > .logo {
+footer .logo > span {
     color: var(--cloud);
 }
 
@@ -72,39 +68,67 @@ header > nav {
     font-weight: 500;
 }
 
-nav > ul > li:first-child:active {
+.studio {
+    color: var(--slate);
+}
+
+.studio:active {
     text-decoration: underline;
     text-decoration-color: var(--ocean);
 }
 
+.studio:focus {
+    color: var(--ocean);
+}
+
+.info {
+    font-style: normal
+}
 
 .solution {
     background-color: var(--navy-blue);
 }
 
-.solution h1 {
+.solution.solution-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
+    line-height: 1.07;
+    letter-spacing: inherit;
     text-align: center;
     color: var(--white);
 }
 
-.solution button {
+.order {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: inherit;
     cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
     color: var(--white);
 }
 
-.solution button:hover {
+.order:focus {
     background: var(--ocean);
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: inherit;
+    text-transform: capitalize;
+}
+
+.tit {
+    background-color: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: inherit;
 }
 
 .team {
     background-color: var(--cloud);
-    align-items: center;
     justify-content: center;
 }
 
