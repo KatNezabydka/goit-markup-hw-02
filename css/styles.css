@@ -69,7 +69,7 @@ header > nav {
     color: var(--navy-blue);
 }
 
-.menu, .address {
+.address {
     color: var(--slate);
 }
 
