@@ -37,11 +37,12 @@ h1, h2, h3, a {
     color: var(--navy-blue);
 }
 
-a:hover {
+a:hover, .logo:hover {
     color: var(--ocean);
 }
 
 .logo {
+    color: var(--navy-blue);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
