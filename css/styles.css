@@ -63,6 +63,9 @@ header > nav {
     font-weight: 500;
     color: var(--navy-blue);
 }
+header > nav:focus{
+    color: var(--ocean);
+}
 
 .address {
     color: var(--slate);
