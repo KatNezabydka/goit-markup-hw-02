@@ -37,9 +37,9 @@ h1, h2, h3, a, .menu {
     color: var(--navy-blue);
 }
 
-/*a:hover {*/
-/*    color: var(--ocean);*/
-/*}*/
+a:hover {
+    color: var(--ocean);
+}
 
 .logo {
     font-family: var(--second-family), sans-serif;
@@ -59,17 +59,18 @@ footer .logo > span {
     color: var(--cloud);
 }
 
-.menu {
+header > nav {
     font-weight: 500;
+    color: var(--navy-blue);
 }
 
 .address {
     color: var(--slate);
 }
 
-/*.menu:active {*/
-/*    text-decoration: underline;*/
-/*}*/
+.menu:active {
+    text-decoration: underline;
+}
 
 .menu:focus .menu:hover, .menu:active, .address:focus, .address:hover, .address:active {
     color: var(--ocean);
