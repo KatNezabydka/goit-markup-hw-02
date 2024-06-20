@@ -109,17 +109,17 @@ footer .logo > span {
 .title {
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .tit {
-    background-color: inherit;
+    background-color: var(--brand-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: inherit;
+    letter-spacing: 0.02em;
 }
 
 .team {
