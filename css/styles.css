@@ -68,16 +68,16 @@ header > nav {
     font-weight: 500;
 }
 
-.studio {
+.menu {
     color: var(--slate);
 }
 
-.studio:active {
+.menu:active {
     text-decoration: underline;
     text-decoration-color: var(--ocean);
 }
 
-.studio:focus {
+.menu:focus .menu:hover {
     color: var(--ocean);
 }
 
@@ -89,7 +89,7 @@ header > nav {
     background-color: var(--navy-blue);
 }
 
-.solution.solution-title {
+.solution-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -98,7 +98,7 @@ header > nav {
     color: var(--white);
 }
 
-.order {
+.order-service {
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: inherit;
@@ -107,7 +107,7 @@ header > nav {
     color: var(--white);
 }
 
-.order:focus {
+.order-service:focus {
     background: var(--ocean);
 }
 
