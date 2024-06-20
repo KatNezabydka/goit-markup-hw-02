@@ -68,10 +68,6 @@ footer .logo > span {
     color: var(--slate);
 }
 
-/*.menu:active {*/
-/*    text-decoration: underline;*/
-/*}*/
-
 .menu:focus, .menu:hover, .menu:active, .address:focus, .address:hover, .address:active {
     color: var(--ocean);
 }
@@ -113,8 +109,8 @@ footer .logo > span {
 .title {
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
-    letter-spacing: inherit;
     text-transform: capitalize;
 }
 
@@ -129,6 +125,10 @@ footer .logo > span {
 .team {
     background-color: var(--cloud);
     justify-content: center;
+}
+
+.image{
+    background-color: var(--brand-color)
 }
 
 footer {
