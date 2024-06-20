@@ -37,23 +37,18 @@ h1, h2, h3, a, .menu {
     color: var(--navy-blue);
 }
 
-a:hover, .menu:hover {
-    color: var(--ocean);
-}
-
-.logo {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-}
+/*a:hover {*/
+/*    color: var(--ocean);*/
+/*}*/
 
 .logo {
     font-family: var(--second-family), sans-serif;
     line-height: 1.17;
     text-transform: uppercase;
     color: var(--iris);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
 }
 
 header .logo > span {
@@ -64,18 +59,17 @@ footer .logo > span {
     color: var(--cloud);
 }
 
-header > nav {
+.menu {
     font-weight: 500;
-    color: var(--navy-blue);
 }
 
 .address {
     color: var(--slate);
 }
 
-.menu:active {
-    text-decoration: underline;
-}
+/*.menu:active {*/
+/*    text-decoration: underline;*/
+/*}*/
 
 .menu:focus .menu:hover, .menu:active, .address:focus, .address:hover, .address:active {
     color: var(--ocean);
@@ -93,8 +87,8 @@ header > nav {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: inherit;
     text-align: center;
+    letter-spacing: 0.02em;
     color: var(--white);
 }
 
@@ -109,6 +103,10 @@ header > nav {
 
 .order-service:focus {
     background: var(--ocean);
+}
+
+.order-service:hover {
+    background-color: var(--ocean);
 }
 
 .title {
