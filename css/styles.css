@@ -33,11 +33,11 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, nav, a {
+h1, h2, h3, a {
     color: var(--navy-blue);
 }
 
-nav, a:hover {
+a:hover {
     color: var(--ocean);
 }
 
@@ -66,18 +66,18 @@ footer .logo > span {
 
 header > nav {
     font-weight: 500;
+    color: var(--navy-blue);
 }
 
-.menu {
+.menu, .address {
     color: var(--slate);
 }
 
 .menu:active {
     text-decoration: underline;
-    text-decoration-color: var(--ocean);
 }
 
-.menu:focus .menu:hover {
+.menu:focus .menu:hover, .menu:active, .address:focus, .address:hover, .address:active {
     color: var(--ocean);
 }
 
